@@ -1,7 +1,3 @@
 export function App() {
-	return (
-		<>
-			<h1>DT Money</h1>
-		</>
-	)
+  return <h1>DT Money</h1>
 }

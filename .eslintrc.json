@@ -1,0 +1,38 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "standard-with-typescript",
+    "eslint:recommended",
+    "plugin:react/jsx-runtime"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": ["./tsconfig.json"]
+  },
+  "plugins": ["react", "react-hooks", "@typescript-eslint"],
+  "rules": {
+    "no-use-before-define": "off",
+    "comma-dangle": "off",
+    "no-unused-vars": "off",
+    "space-before-function-paren": "off",
+    "@typescript-eslint/space-before-function-paren": "off",
+    "@typescript-eslint/triple-slash-reference": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/comma-dangle": "warn",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "react/jsx-filename-extension": ["off", { "extensions": [".tsx"] }],
+    "max-len": ["warn", { "code": 90 }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
