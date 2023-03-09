@@ -55,6 +55,14 @@
       "type": "outcome",
       "createdAt": "2023-03-03T20:10:38.082Z",
       "id": 7
+    },
+    {
+      "description": "Desenvolvimento de App para Celular",
+      "price": 5000,
+      "category": "Trabalho",
+      "type": "income",
+      "createdAt": "2023-03-09T11:37:11.167Z",
+      "id": 8
     }
   ]
 }
